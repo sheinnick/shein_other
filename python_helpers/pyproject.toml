@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python_helpers_nsh"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Shein"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.10.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
